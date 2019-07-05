@@ -9,3 +9,4 @@
 
 ## Issue
 - [190703_DB연동](/Issue/190703_DB연동.md)
+- [190705_@WebMvcTest_componentScan_scope](/Issue/190705_@WebMvcTest_componentScan_scope.md)
