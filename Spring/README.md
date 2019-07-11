@@ -18,7 +18,7 @@
 -   Spring Data JPA
 -   Spring Security
 -   Spring MVC
--   MySQL
+-   MySQL
 
 **2\. Toy**
 
