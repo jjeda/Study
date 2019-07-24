@@ -7,6 +7,7 @@
 ## 1. Self-descriptive message
 - 메시지 안에 모든 정보가 담겨있는 것
 - 서버가 내용을 바꾸더라도 클라이언트는 알아서 해석할 수 있어야함
+- Spring REST Docs로 구현
 
 ## 2. HATEOAS
 - 응답에 애플리케이션 상태정보를 변환 할 수 있어야함
@@ -18,11 +19,15 @@
 - 상태에 따라 다른 URI를 제공해야한다는 말 
 - 링크를 만드는 기능
 - 리소스(리소스 데이터 +링크 정보)를 만드는 기능
+- Spring HATEOAS로 구현
 
 ## 3. HAL
 - 
 
 ## 4. Spring docs
+- Swagger대신 Spring REST Docs 를 사용하는 이유?
+  - API 코드를 변경했을 때(테스트코드 포함) 바로바로 적용가능
+  - 테스트코드에 들어가지않은 내용들 강제화
 
 ## 5. Spring HATEOAS
 - 
