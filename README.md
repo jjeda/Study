@@ -1,5 +1,5 @@
 ## Network
-- [1% 네트워크 원리](Network/REAME.md)
+- [1% 네트워크 원리](Network/README.md)
 
 
 ## Back-end 개발자를 지탱하는 이론
