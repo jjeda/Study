@@ -6,6 +6,6 @@
 - [인증, 권한, 인가](/Back-end%20개발자를%20지탱하는%20이론/인증,%20권한,%20인가.md)
 - [REST API](/Back-end%20개발자를%20지탱하는%20이론/REST%20API.md)
 - [CORS](/Back-end%20개발자를%20지탱하는%20이론/CORS.md)
-
+- [gRPC](/Back-end%20개발자를%20지탱하는%20이론/gRPC.md)
 
 
