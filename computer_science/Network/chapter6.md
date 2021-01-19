@@ -21,24 +21,24 @@
 
 #### 1.2 전통적인 동기식 서비스(요청 당 스레드 or 연결 당 스레드)
 
-![](assets/thread.png)    
+![](zio/study/computer_science/Network/assets/thread.png)    
 - 메모리 공간을 확보 후 해당 스레드를 할당(해제) -> 프로그램이 기동(종료)하는 부분에서 시간이 걸리는 문제발생 
 - 미리 다수의 스레드를 운영할 수 있게 메모리공간을 확보 후 다수의 스레드를 만들어 놓자 -> 스레드 풀
 - 이 스레드 풀에서 하나씩 가져와서 할당  
 
-![](assets/client&server.png)  
+![](zio/study/computer_science/Network/assets/client&server.png)  
 - 클라이언트에서 오는 응답을 기다려야함(blocking)
 
 
 #### 1.3 Asynchronous & Reactive
 
-![event_loop](assets/event_loop.png)
+![event_loop](zio/study/computer_science/Network/assets/event_loop.png)
 >https://velopert.com/267
 
 
 - event loop 개념
 
-![streaming](assets/streaming.png)
+![streaming](zio/study/computer_science/Network/assets/streaming.png)
 >https://engineering.linecorp.com/ko/blog/reactive-streams-with-armeria-1
 
 
@@ -66,7 +66,7 @@ electronic signal -> L3 -> L4
 
 **Layer 3**
 
-![](assets/l3.png)
+![](zio/study/computer_science/Network/assets/l3.png)
 - IP 헤더 조사해서 나한테 오는 패킷인지, 스쳐가는 패킷인지 판단
 - fragmentation 된 패킷인지 판단
 - L4에게 전달
@@ -74,7 +74,7 @@ electronic signal -> L3 -> L4
 
 **Layer 4(3-way handshaking)**
 
-![](assets/l4.png)
+![](zio/study/computer_science/Network/assets/l4.png)
 - SYN (client)
 - Validation Check
 - process(copy socket)
@@ -92,7 +92,7 @@ electronic signal -> L3 -> L4
 
 #### Socket 동작
 
-![](assets/socket.png)
+![](zio/study/computer_science/Network/assets/socket.png)
 >https://recipes4dev.tistory.com/153
 
 
@@ -109,11 +109,11 @@ electronic signal -> L3 -> L4
 - 포트번호가 다르면 내가 접속한 곳에서 왔는지, 다른 곳에서 왔는지 판별하기 힘듦
 - 이렇게하면 포트번호가 같은 여러 소켓이 존재...
 
-![](assets/socket2.png)
+![](zio/study/computer_science/Network/assets/socket2.png)
 
 - 그래서 클라이언트의 포트번호도 적어줘야하는거
 
-![](assets/socekt3.png)
+![](zio/study/computer_science/Network/assets/socekt3.png)
 
 - 하지만 여러 클라이언트에서 같은 포트로 보낼 수 있으니까 클라이언트의 IP 주소도 포함되어야한다.
 - 이 4가지 값이 사용되지않기전에 어떻게 구별?
@@ -156,7 +156,7 @@ JSP는 HTML 안에 JAVA 코드가 포함되어있음 실행될 때 서블릿으�
 프론트와 백의 구분이 명확하지 않았 REST 아키텍쳐가 도입되어 json을 주고받음, SPA 나오면서
 스프링 부트에서 서블릿 기본, JSP 권장 x
 
-![spa](assets/spa.png)
+![spa](zio/study/computer_science/Network/assets/spa.png)
 >https://linked2ev.github.io/devlog/2018/08/01/WEB-What-is-SPA
 
 
