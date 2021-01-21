@@ -13,7 +13,6 @@ computer science 는 기본적으로 어떤 문제(불편함)를 해결하고자
 - [REST API](/ETC/REST%20API.md)
 - [gRPC](/ETC/gRPC.md)
 - [Why going asynchronous and reactive?](/ETC/Asynchronous&Reactive.md)
-- [RDB vs NoSQL](/ETC/RDB_VS_NoSQL.md)
 - JVM
 - Object Oriented
 - Spring
