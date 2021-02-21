@@ -4,8 +4,8 @@ computer science 는 기본적으로 어떤 문제(불편함)를 해결하고자
 - [Database](/computer_science/Database.md)
 - [HTTP](/computer_science/HTTP.md)
 - [Linux](/computer_science/Linux.md)
+- [Operating System](/computer_science/Operating%20System.md)
 - Network
-- Operating System
 - Data Structure
 
 ## ETC
