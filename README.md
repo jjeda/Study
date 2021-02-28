@@ -7,6 +7,7 @@ computer science 는 기본적으로 어떤 문제(불편함)를 해결하고자
 - [Operating System](/computer_science/Operating%20System.md)
 - Network
 - Data Structure
+- [Algorithm](/algorithm/README.md)
 
 ## ETC
 - [인증, 권한, 인가](/ETC/인증,%20권한,%20인가.md)
